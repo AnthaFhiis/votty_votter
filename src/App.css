@@ -1,0 +1,151 @@
+body {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-image: url('https://cdn.wallpapersafari.com/36/94/wdEIfK.jpg');
+  background-repeat:no-repeat;
+  background-size: 100%;
+}
+
+
+
+.container {
+  min-height: 400px;
+}
+
+.form-signin {
+  max-width: 330px;
+  padding: 15px;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.form-signin input[type="text"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 20;
+  border-bottom-left-radius: 20;
+}
+
+.form-signin input[type="password"] {
+  margin-top: 10px;
+  border-top-left-radius: 20;
+  border-top-right-radius: 20;
+}
+
+
+
+
+
+#row-candidatos {
+  background-color: whitesmoke;
+  min-width: 700px;
+  max-width: 800px;
+  height: 400px;
+  
+}
+
+#picture-p {
+  height: 150px;
+  width:  200px;
+  border: 2px solid;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+#picture-votty-vot {
+  height: 50%;
+  width:  50%;
+}
+
+#col1-cand {
+  border: 1px;
+  max-width: 800px;
+  max-height: 305px;
+  overflow-y: scroll;
+}
+
+#col2-cand {
+  border: 1px;
+  max-width: 800px;
+  max-height: 400px;
+}
+
+#row-btt-vot1 {
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+  max-height: 300px;
+}
+
+#row-btt-vot2 {
+  max-width: 100%;
+  max-height: 20%;
+  width: 100%;
+  height: 100%;
+}
+
+#boton-elegir {
+  width: 200px;
+}
+
+
+
+
+#contenedor-administrador{
+  background-color: whitesmoke;
+  width: 100vw;
+  height: 100vh;
+}
+
+
+#row1 {
+  height: 10%;
+}
+
+#row2 {
+  height: 90%;
+}
+
+#con-adm-col-4 {
+  height: 100%;
+}
+
+#con-adm-col {
+  height: 100%;
+}
+
+#card-adm {
+  width: 300px;
+  
+}
+#card-vot {
+  width: 300px;
+  
+}
+
+/*
+    css perfil
+*/
+
+#img-user {
+  max-width: 25%;
+  max-height: 25%;
+  margin-left: auto; 
+  margin-right: auto;
+}
+
+#contenedor-perfil {
+  max-width: 400px;
+}
+
+#btt-perf {
+  width: 100px;;
+}
+
